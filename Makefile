@@ -10,7 +10,7 @@ CURRENT_USER := $(shell id -u -n)
 GOOS   ?= $(shell go env GOOS)
 GOARCH ?= $(shell go env GOARCH)
 
-BUILDFLAGS = -ldflags=" -X github.com/replicatedhq/local-volume-provider/pkg/version.version=$(VERSION) "
+BUILDFLAGS = -ldflags=" -X github.com/bharath-rafay/velero-custom-plugin/pkg/version.version=$(VERSION) "
 
 # builds the binary using 'go build' in the local environment.
 .PHONY: plugin

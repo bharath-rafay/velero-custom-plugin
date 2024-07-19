@@ -29,9 +29,9 @@ pipeline:
       export VERSION=${{package.version}}
 
       CGO_ENABLED=0 go build \
-        -ldflags=" -X github.com/replicatedhq/local-volume-provider/pkg/version.version=$VERSION " \
+        -ldflags=" -X github.com/bharath-rafay/velero-custom-plugin/pkg/version.version=$VERSION " \
         -o "${DESTDIR}/plugins/local-volume-provider" ./cmd/local-volume-provider
 
       CGO_ENABLED=0 go build \
-        -ldflags=" -X github.com/replicatedhq/local-volume-provider/pkg/version.version=$VERSION " \
+        -ldflags=" -X github.com/bharath-rafay/velero-custom-plugin/pkg/version.version=$VERSION " \
         -o "${DESTDIR}/local-volume-fileserver" ./cmd/local-volume-fileserver

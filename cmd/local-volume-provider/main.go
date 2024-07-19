@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/replicatedhq/local-volume-provider/pkg/plugin"
-	"github.com/replicatedhq/local-volume-provider/pkg/version"
+	"github.com/bharath-rafay/velero-custom-plugin/pkg/plugin"
+	"github.com/bharath-rafay/velero-custom-plugin/pkg/version"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
 	veleroplugin "github.com/vmware-tanzu/velero/pkg/plugin/framework"

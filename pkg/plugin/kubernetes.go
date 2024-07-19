@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/bharath-rafay/velero-custom-plugin/pkg/k8sutil"
+	"github.com/bharath-rafay/velero-custom-plugin/pkg/version"
 	"github.com/pkg/errors"
-	"github.com/replicatedhq/local-volume-provider/pkg/k8sutil"
-	"github.com/replicatedhq/local-volume-provider/pkg/version"
 	"github.com/sirupsen/logrus"
 	veleroplugin "github.com/vmware-tanzu/velero/pkg/plugin/framework/common"
 	appsv1 "k8s.io/api/apps/v1"

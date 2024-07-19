@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/bharath-rafay/velero-custom-plugin/pkg/plugin"
+	"github.com/bharath-rafay/velero-custom-plugin/pkg/version"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/filesystem"
 	"github.com/gofiber/fiber/v2/middleware/logger"
-	"github.com/replicatedhq/local-volume-provider/pkg/plugin"
-	"github.com/replicatedhq/local-volume-provider/pkg/version"
 )
 
 func main() {

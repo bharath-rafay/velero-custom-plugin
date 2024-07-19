@@ -7,7 +7,6 @@ toolchain go1.22.5
 require (
 	github.com/gofiber/fiber/v2 v2.52.5
 	github.com/pkg/errors v0.9.1
-	github.com/replicatedhq/local-volume-provider v0.6.7
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.9.0
